@@ -1,0 +1,85 @@
+@font-face
+    {
+        font-family: "hanged letters";
+        src: url("police/Hanged Letters.ttf");
+    }
+@font-face
+    {
+        font-family: "letters for learners";
+        src: url("police/Letters for Learners.ttf");
+    }
+html    
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+body
+    {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 0;
+        font-family: "letters for learners";
+    }
+a
+    {
+        text-decoration: none;
+    }
+li
+    {
+        list-style-type: none;
+    }
+/* Header */
+header
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 15vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        background:linear-gradient(to top left, #F5A991,#D7F591);
+    }
+header h1
+    {
+        font-family: "hanged letters";
+        margin-top: 0;
+        font-size: 50px;
+    }
+header a
+    {
+        color: black;
+        font-size: 25px;
+        border: 2px dotted black;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 25px;
+    }
+header a:hover
+    {
+        color: #D7F591;
+        font-size: 25px;
+        border: 2px dotted white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+/* Main */
+main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background:linear-gradient(to top right, #D7F591, #F5A991);
+    }
+/* Footer */
+footer
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background:linear-gradient(to top left, #F5A991, #D7F591);
+    }

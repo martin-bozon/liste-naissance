@@ -16,21 +16,31 @@
 
     <main>
         <section id="choix">
-
+            <ul>
+                <li id="categorie">Catégories</li> 
+                    <ul>
+                        <li><a href="#sortie">Première Sorite</a></li>
+                        <li><a href="#eveil">Eveil</a></li>
+                        <li><a href="#repas">Repas</a></li>
+                        <li><a href="#chambre">Chambre</a></li>
+                        <li><a href="#toilette">Toilette</a></li>
+                        <li><a href="#sommeil">Sommeil</a></li>
+                        <li><a href="#parent">Parents</a></li>
+                    </ul>
+            </ul>
         </section>
         <section id="contenu">
             <section id="legende">
                 <h2>Légende</h2>
                 <ul>
-                    <li>Rouge : Besoin urgent</li>
-                    <li>Bleu : déjà séléctionner</li>
-                    <li>Barré : déjà acheté</li>
+                    <li class="urgent">Besoin urgent</li>
+                    <li class="selection">Déjà séléctionner</li>
+                    <li class="acheter">Déjà acheté</li>
                     <li> : A acheter</li>
                 </ul>
             </section>
             <section id="tableau">
-                <table>
-                    <!-- <Sortie> -->
+                <table id="sortie">
                     <tr>
                         <th>Pour les première Sorties</th>
                     </tr>
@@ -42,11 +52,11 @@
                     </tr>
                     <tr class="selection">
                         <td><img src="image/portebb.jpg" alt="porte bébé"/></td>
-                        <td>Ergobaby Porte Bébé</td>
+                        <td>Porte Bébé</td>
                         <td>Pour que Papa me porte dans le plus grand confort</td>
                         <td><a href="https://www.allobebe.fr/porte-bebe-physiologique-omni-360-gris-bleu-nuit-etoilee-aER046137918.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
-                    <tr class="achete">
+                    <tr class="acheter">
                         <td><img src="image/nacelle.jpg" alt="nacelle"/></td>
                         <td>Nacelle Amber plus</td>
                         <td>Je suis trop petit pour aller sur le siège</td>
@@ -59,8 +69,7 @@
                         <td><a href="https://www.allobebe.fr/poussette-3-roues-terrain-version-3-graphite-aMB041553790.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
-                <table>
-                    <!-- <Eveil> -->
+                <table id="eveil">
                     <tr>
                         <th>Pour son Eveil</th>
                     </tr>
@@ -82,15 +91,14 @@
                         <td>Sans mon grobrite j'ai peur la nuit</td>
                         <td><a href="https://www.allobebe.fr/veilleuse-bebe-grobrite-pingouin-2-en-1-nomade-aTO060459848.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
-                    <tr>
+                    <tr class="acheter">
                         <td><img src="image/animaux-pendus.jpg" alt="mobile aniamux joyeux"/></td>
                         <td>Mobile Fanny et Oscar</td>
                         <td>Mobile pour avoir de la compagnie la nuit</td>
                         <td><a href="https://www.allobebe.fr/mobile-bebe-fanny-et-oscar-aJO083496236.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
-                <table>
-                    <!-- <Repas> -->
+                <table id="repas">
                     <tr>
                         <th>Pour ses Repas</th>
                     </tr>
@@ -106,27 +114,20 @@
                         <td>Plusieurs Biberons suivant mes envies</td>
                         <td><a href="https://www.allobebe.fr/lot-de-6-biberons-natural-seche-biberons-aAV052283035.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
-                    <tr>
+                    <tr class="acheter">
                         <td><img src="image/tetines.jpg" alt="lotd tétines"/></td>
                         <td>Lot de 2 tétines</td>
                         <td>Lot de tétines anatomique débit moyen, je suis gourmant</td>
                         <td><a href="https://www.allobebe.fr/lot-de-2-tetines-anatomique-silicone-debit-2-moyen-aEU053339951.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
-                    <tr>
+                    <tr class="selection">
                         <td><img src="image/chauffe.jpg" alt="chauffe biberon"/></td>
                         <td>Chauffe Biberon</td>
                         <td>Pour chauffer mon biberon pardis !</td>
                         <td><a href="https://www.allobebe.fr/chauffe-biberon-aAV054154773.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
                 </table>
-                <table>
-                    <!-- <Chambre> -->
+                <table id="chambre">
                     <tr>
                         <th>Pour sa Chambre</th>
                     </tr>
@@ -137,68 +138,60 @@
                         <td>Acheter</td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="imeage/lit.jpg" alt="lit à barreau"/></td>
+                        <td>Lit à barreux</td>
+                        <td>Lit + commode intégré</td>
+                        <td><a href="https://www.allobebe.fr/lit-bebe-combine-evolutif-60x120-en-90x190-teddy-aSY063388616.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/matelas.jpg" alt="matelas"/></td>
+                        <td>Matelas été hiver</td>
+                        <td>Matelas réversible</td>
+                        <td><a href="https://www.allobebe.fr/matelas-bebe-climatise-etehiver-60-x-120-cm-aPH068240720.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/phone.jpg"/></td>
+                        <td>Baby phone</td>
+                        <td>Baby phone avec caméra</td>
+                        <td><a href="https://www.allobebe.fr/babyphone-video-babycam-scd84526-aAV072296821.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
-                <table>
-                    <!-- <Toilette> -->
+                <table id="toilette">
                     <tr>
                         <th>Pour sa Toilette</th>
                     </tr>
                     <tr>
-                        <tr>
-                            <td>Image</td>
-                            <td>Nom</td>
-                            <td>Description</td>
-                            <td>Acheter</td>
-                        </tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Image</td>
+                        <td>Nom</td>
+                        <td>Description</td>
+                        <td>Acheter</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/coffret.jpg" alt="coffret toilette"/></td>
+                        <td>Coffret de toilette</td>
+                        <td>Coffret de toilette complet pour garder bébé propre</td>
+                        <td><a href="https://www.allobebe.fr/coffret-toilette-et-sante-bebe-aTO096401271.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/bain.jpg" alt="sortie de bain"/></td>
+                        <td>Lot de Sorties de bain</td>
+                        <td>Lot de deux sorties de bain trop mimi</td>
+                        <td><a href="https://www.allobebe.fr/lot-de-2-sorties-de-bain-floral-fauna-aAD091047424.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
+                    </tr>
+                    <tr class="selection">
+                        <td><img src="image.poubelle.jpg" alt="poubelle à couche"/></td>
+                        <td>Poubelle à couche</td>
+                        <td>Poubelle à couche plus recharge</td>
+                        <td><a href="https://www.allobebe.fr/starter-pack-twist-click-poubelle-blanche-6-recharges-aSG095110044.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/mouche.jpg"alt="mouche bébé"/></td>
+                        <td>Mouche bébé électrique</td>
+                        <td>Mouche bébé électrique évolutif, on est à la pointe de la technoligie</td>
+                        <td><a href="https://www.allobebe.fr/mouche-bebe-electrique-nomade-tomydoo-mineral-aBB094120312.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
-                <table>
-                    <!-- <Sommeil> -->
+                <table id="sommeil">
                     <tr>
                         <th>Pour son Sommeil</th>
                     </tr>
@@ -208,27 +201,26 @@
                         <td>Description</td>
                         <td>Acheter</td>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                    <tr class="acheter">
+                        <td><img src="image/gigot.jpg" alt="gigoteuse roi lion"/></td>
+                        <td>Gigoteuse Roi Lion</td>
+                        <td>Pour gigoter et être le roi quand même</td>
+                        <td><a href="https://www.allobebe.fr/gigoteuse-reglable-6-36-mois-le-roi-lion-aPH067631780.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/pyj.jpg" alt="pyjama piquant"/></td>
+                        <td>Pyjama</td>
+                        <td>Pyjama au caractère piquant</td>
+                        <td><a href="https://www.allobebe.fr/pyjama-dors-bien-caractere-piquant-aNX125069731.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/bonnet.jpg" alt="bonnet de nuit"/></td>
+                        <td>Bonnet de nuit</td>
+                        <td>Bonnet avec sauce mayo et ketchup intégré</td>
+                        <td><a href="https://www.allobebe.fr/bonnet-bebe-timouki-aST127097663.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
-                <table>
-                    <!-- <Parents> -->
+                <table id="parent">
                     <tr>
                         <th>Pour Nous</th>
                     </tr>
@@ -239,16 +231,16 @@
                         <td>Acheter</td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/dolicrane.png" alt="boite de doliprane"/></td>
+                        <td>Doliprane</td>
+                        <td>Pour nos maux de tête</td>
+                        <td><a href="https://pharmacie-citypharma.fr/doliprane-1000mg-comprimes.html"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/casque.png" alt="casque antibruit"</td>
+                        <td>Casque anti bruit</td>
+                        <td>Casque pour faire la sieste tranquille</td>
+                        <td><a href="https://www.quincaillerie.pro/produit/p133099/casque-anti-bruit-peltor-optime-3-avec-serre-tete-snr35?fcpc=P133099&fcdid=7389&bs=14&gclid=EAIaIQobChMIhu2NtbG46AIVmLPtCh3WQgpREAYYBSABEgJd8PD_BwE&flxrid=3c10aa17-c2c2-4b6e-b8d8-e4ecb4404ae4&utm_source=gshopping&utm_medium=cpc&utm_campaign=fluxcenter"><img src="image/cadie.png" alt="cadie noir"/></a></td>
                     </tr>
                 </table>
             </section>
