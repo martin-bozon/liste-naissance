@@ -123,6 +123,7 @@ span
 #categorie:hover
     {
         color:#F5A991;
+        box-shadow: 2px 2px 0px grey;
     }
 #menu nav ul li ul
     {
@@ -133,7 +134,8 @@ span
 {
         display:flex;
         flex-direction: column;
-        box-shadow: 2px 2px 0px rgb(114, 112, 112), -2px -2px 0px rgb(114, 112, 112);
+        border: 1px solid black;
+        box-shadow: 2px 2px 0px rgba(141, 138, 138, 0.87), -2px -2px 0px rgba(141, 138, 138, 0.87) ;
         background-color: white;
         border-radius: 25px;
         padding-right: 1vw;
