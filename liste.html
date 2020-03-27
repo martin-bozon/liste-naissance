@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Notre Liste</title>
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="image/iconbb.png">
     <link rel="stylesheet" href="liste.css" />
 </head>
 
@@ -15,6 +15,20 @@
     </header>
 
     <main>
+        <section id="presentation">
+            <p>
+                Bonjour tout le monde, pour nous aider dans cette nouvelle aventure, nous sollicitons votre aider pour
+                accueilir notre bout de choux. En effet <span>TARTANPION</span> va bientôt arriver et nous devons équiper la maison
+                pour qu'il grandisse dans le meilleur cadre possible.
+            </p>
+            <p>
+                Pour cela nous avons créer une liste de nos besoin et bien sur si vous avez d'autre idées
+                vous pouvez ajouter des produits dans le <a href="formulaire.html">formulaire</a> prévu à cet effet.
+            </p>
+            <p>
+                Merci de votre soutien !
+            </p>
+        </section>
         <section id="menu">
             <nav>
                 <ul>
@@ -37,246 +51,248 @@
                 <h2>Légende:</h2>
                 <ul>
                     <li class="urgent">Besoin urgent</li>
-                    <li class="selection">Déjà séléctionner</li>
+                    <li class="selection">Sélectionner par des amis</li>
                     <li class="acheter">Déjà acheté</li>
-                    <li> : A acheter</li>
+                    <li class="normale">Besoin</li>
                 </ul>
             </section>
-            <section id="tableau">
-                <table id="sortie">
+            <table>
+                <tbody>
                     <tr>
-                        <td rowspan="4">Pour les Sorties</td>
+                        <th id="sorite">Pour les Sorties</th>
+                    </tr>
+                    <tr class="intitule">
                         <td>Image</td>
-                        <td>Nom</td>
+                        <td>Nom produit</td>
                         <td>Description</td>
-                        <td>Acheter</td>
+                        <td>Lien</td>
                     </tr>
                     <tr class="selection">
-                        <td><img src="image/portebb.jpg" alt="porte bébé" class="image"/></td>
+                        <td><img src="image/portebb.jpg" alt="porte bébé" class="image" /></td>
                         <td>Porte Bébé</td>
                         <td>Pour que Papa me porte dans le plus grand confort</td>
                         <td><a
-                                href="https://www.allobebe.fr/porte-bebe-physiologique-omni-360-gris-bleu-nuit-etoilee-aER046137918.html"><img
+                                href="https://www.allobebe.fr/porte-bebe-physiologique-omni-360-gris-bleu-nuit-etoilee-aER046137918.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="acheter">
-                        <td><img src="image/nacelle.jpg" alt="nacelle" class="image"/></td>
+                        <td><img src="image/nacelle.jpg" alt="nacelle" class="image" /></td>
                         <td>Nacelle Amber plus</td>
-                        <td>Je suis trop petit pour aller sur le siège</td>
-                        <td><a href="https://www.allobebe.fr/nacelle-amber-plus-sparkling-grey-aBC041106596.html"><img
+                        <td>Je suis trop petit pour aller sur le siège de la voiture</td>
+                        <td><a href="https://www.allobebe.fr/nacelle-amber-plus-sparkling-grey-aBC041106596.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                    <tr>
-                        <td><img src="image/poussette.jpg" alt="pousette tout terrain"class="image" /></td>
+                    <tr class="normale">
+                        <td><img src="image/poussette.jpg" alt="pousette tout terrain" class="image" /></td>
                         <td>Poussette Trois Roues Tout Terrain (PTT)</td>
                         <td>Pour passer partout ! Broaaaaaap !</td>
                         <td><a
-                                href="https://www.allobebe.fr/poussette-3-roues-terrain-version-3-graphite-aMB041553790.html"><img
+                                href="https://www.allobebe.fr/poussette-3-roues-terrain-version-3-graphite-aMB041553790.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="eveil">
                     <tr>
-                        <td rowspan="4">Pour l'Eveil</td>
-                        <td>Image</td>
-                        <td>Nom</td>
-                        <td>Description</td>
-                        <td>Acheter</td>
+                        <th class="in" id="eveil">Pour l'Eveil</th>
                     </tr>
-                    <tr>
-                        <td><img src="image/muchachos.jpg" alt="muchachos le lama" class="image"/></td>
+                    <tr class="intitule">
+                        <td>Image</td>
+                        <td>Nom produit</td>
+                        <td>Description</td>
+                        <td>Lien</td>
+                    </tr>
+                    <tr class="normale">
+                        <td><img src="image/muchachos.jpg" alt="muchachos le lama" class="image" /></td>
                         <td>Hochet Muchachos le Lama</td>
                         <td>Muchachooooooos !!! </td>
-                        <td><a href="https://www.allobebe.fr/hochet-deveil-muchachos-le-lama-aDG084564714.html"><img
+                        <td><a href="https://www.allobebe.fr/hochet-deveil-muchachos-le-lama-aDG084564714.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="selection">
-                        <td><img src="image/grobrite.jpg" alt="veilleuse pingouin" class="image"/></td>
+                        <td><img src="image/grobrite.jpg" alt="veilleuse pingouin" class="image" /></td>
                         <td>Veilleuse Grobrite le Pingouin</td>
                         <td>Sans mon grobrite j'ai peur la nuit</td>
                         <td><a
-                                href="https://www.allobebe.fr/veilleuse-bebe-grobrite-pingouin-2-en-1-nomade-aTO060459848.html"><img
+                                href="https://www.allobebe.fr/veilleuse-bebe-grobrite-pingouin-2-en-1-nomade-aTO060459848.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="acheter">
                         <td><img src="image/animaux-pendus.jpg" alt="mobile aniamux joyeux" class="image" /></td>
                         <td>Mobile Fanny et Oscar</td>
                         <td>Mobile pour avoir de la compagnie la nuit</td>
-                        <td><a href="https://www.allobebe.fr/mobile-bebe-fanny-et-oscar-aJO083496236.html"><img
+                        <td><a href="https://www.allobebe.fr/mobile-bebe-fanny-et-oscar-aJO083496236.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="repas">
                     <tr>
-                        <td rowspan="4">Le Repas</td>
-                        <td>Image</td>
-                        <td>Nom</td>
-                        <td>Description</td>
-                        <td>Acheter</td>
+                        <th class="in" id="repas">Le Repas</th>
                     </tr>
-                    <tr>
-                        <td><img src="image/biberons.jpg" alt="lot biberons" class="image"/></td>
+                    <tr class="intitule">
+                        <td>Image</td>
+                        <td>Nom produit</td>
+                        <td>Description</td>
+                        <td>Lien</td>
+                    </tr>
+                    <tr class="normale">
+                        <td><img src="image/biberons.jpg" alt="lot biberons" class="image" /></td>
                         <td>Lot de 6 Biberons</td>
                         <td>Plusieurs Biberons suivant mes envies</td>
                         <td><a
-                                href="https://www.allobebe.fr/lot-de-6-biberons-natural-seche-biberons-aAV052283035.html"><img
+                                href="https://www.allobebe.fr/lot-de-6-biberons-natural-seche-biberons-aAV052283035.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="acheter">
-                        <td><img src="image/tetines.jpg" alt="lotd tétines" class="image"/></td>
+                        <td><img src="image/tetines.jpg" alt="lotd tétines" class="image" /></td>
                         <td>Lot de 2 tétines</td>
                         <td>Lot de tétines anatomique débit moyen, je suis gourmant</td>
                         <td><a
-                                href="https://www.allobebe.fr/lot-de-2-tetines-anatomique-silicone-debit-2-moyen-aEU053339951.html"><img
+                                href="https://www.allobebe.fr/lot-de-2-tetines-anatomique-silicone-debit-2-moyen-aEU053339951.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="selection">
-                        <td><img src="image/chauffe.jpg" alt="chauffe biberon" class="image"/></td>
+                        <td><img src="image/chauffe.jpg" alt="chauffe biberon" class="image" /></td>
                         <td>Chauffe Biberon</td>
                         <td>Pour chauffer mon biberon pardis !</td>
-                        <td><a href="https://www.allobebe.fr/chauffe-biberon-aAV054154773.html"><img
+                        <td><a href="https://www.allobebe.fr/chauffe-biberon-aAV054154773.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="chambre">
                     <tr>
-                        <td rowspan="4">Pour la Chambre</td>
+                        <th class="in" id="chambre">Pour la Chambre</th>
+                    </tr>
+                    <tr class="intitule">
                         <td>Image</td>
-                        <td>Nom</td>
+                        <td>Nom produit</td>
                         <td>Description</td>
-                        <td>Acheter</td>
+                        <td>Lien</td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/lit.jpg" alt="lit à barreau" class="image"/></td>
+                        <td><img src="image/lit.jpg" alt="lit à barreau" class="image" /></td>
                         <td>Lit à barreux</td>
                         <td>Lit + commode intégré</td>
                         <td><a
-                                href="https://www.allobebe.fr/lit-bebe-combine-evolutif-60x120-en-90x190-teddy-aSY063388616.html"><img
+                                href="https://www.allobebe.fr/lit-bebe-combine-evolutif-60x120-en-90x190-teddy-aSY063388616.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                    <tr>
-                        <td><img src="image/matelas.jpg" alt="matelas" class="image"/></td>
+                    <tr class="normale">
+                        <td><img src="image/matelas.jpg" alt="matelas" class="image" /></td>
                         <td>Matelas été hiver</td>
                         <td>Matelas réversible</td>
                         <td><a
-                                href="https://www.allobebe.fr/matelas-bebe-climatise-etehiver-60-x-120-cm-aPH068240720.html"><img
+                                href="https://www.allobebe.fr/matelas-bebe-climatise-etehiver-60-x-120-cm-aPH068240720.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/phone.jpg" alt="babu phone" class="image"/></td>
+                        <td><img src="image/phone.jpg" alt="babu phone" class="image" /></td>
                         <td>Baby phone</td>
                         <td>Baby phone avec caméra</td>
-                        <td><a href="https://www.allobebe.fr/babyphone-video-babycam-scd84526-aAV072296821.html"><img
+                        <td><a href="https://www.allobebe.fr/babyphone-video-babycam-scd84526-aAV072296821.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="toilette">
                     <tr>
-                        <td rowspan="5">Pour la toilette</td>
-                        <td>Image</td>
-                        <td>Nom</td>
-                        <td>Description</td>
-                        <td>Acheter</td>
+                        <th class="in" id="toilette">Pour la toilette</th>
                     </tr>
-                    <tr>
-                        <td><img src="image/coffret.jpg" alt="coffret toilette" class="image"/></td>
+                    <tr class="intitule">
+                        <td>Image</td>
+                        <td>Nom produit</td>
+                        <td>Description</td>
+                        <td>Lien</td>
+                    </tr>
+                    <tr class="normale">
+                        <td><img src="image/coffret.jpg" alt="coffret toilette" class="image" /></td>
                         <td>Coffret de toilette</td>
                         <td>Coffret de toilette complet pour garder bébé propre</td>
-                        <td><a href="https://www.allobebe.fr/coffret-toilette-et-sante-bebe-aTO096401271.html"><img
+                        <td><a href="https://www.allobebe.fr/coffret-toilette-et-sante-bebe-aTO096401271.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/bain.jpg" alt="sortie de bain" class="image"/></td>
+                        <td><img src="image/bain.jpg" alt="sortie de bain" class="image" /></td>
                         <td>Lot de Sorties de bain</td>
                         <td>Lot de deux sorties de bain trop mimi</td>
-                        <td><a href="https://www.allobebe.fr/lot-de-2-sorties-de-bain-floral-fauna-aAD091047424.html"><img
+                        <td><a href="https://www.allobebe.fr/lot-de-2-sorties-de-bain-floral-fauna-aAD091047424.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="selection">
-                        <td><img src="image/poubelle.jpg" alt="poubelle à couche" class="image"/></td>
+                        <td><img src="image/poubelle.jpg" alt="poubelle à couche" class="image" /></td>
                         <td>Poubelle à couche</td>
                         <td>Poubelle à couche plus recharge</td>
                         <td><a
-                                href="https://www.allobebe.fr/starter-pack-twist-click-poubelle-blanche-6-recharges-aSG095110044.html"><img
+                                href="https://www.allobebe.fr/starter-pack-twist-click-poubelle-blanche-6-recharges-aSG095110044.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                    <tr>
-                        <td><img src="image/mouche.jpg" alt="mouche bébé" class="image"/></td>
+                    <tr class="normale">
+                        <td><img src="image/mouche.jpg" alt="mouche bébé" class="image" /></td>
                         <td>Mouche bébé électrique</td>
                         <td>Mouche bébé électrique évolutif, on est à la pointe de la technoligie</td>
                         <td><a
-                                href="https://www.allobebe.fr/mouche-bebe-electrique-nomade-tomydoo-mineral-aBB094120312.html"><img
+                                href="https://www.allobebe.fr/mouche-bebe-electrique-nomade-tomydoo-mineral-aBB094120312.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="sommeil">
                     <tr>
-                        <td rowspan="4">Pour faire dodo</td>
+                        <th class="in" id="sommeil">Pour faire dodo</th>
+                    </tr>
+                    <tr class="intitule">
                         <td>Image</td>
-                        <td>Nom</td>
+                        <td>Nom produit</td>
                         <td>Description</td>
-                        <td>Acheter</td>
+                        <td>Lien</td>
                     </tr>
                     <tr class="acheter">
-                        <td><img src="image/gigot.jpg" alt="gigoteuse roi lion" class="image"/></td>
+                        <td><img src="image/gigot.jpg" alt="gigoteuse roi lion" class="image" /></td>
                         <td>Gigoteuse Roi Lion</td>
                         <td>Pour gigoter et être le roi quand même</td>
                         <td><a
-                                href="https://www.allobebe.fr/gigoteuse-reglable-6-36-mois-le-roi-lion-aPH067631780.html"><img
+                                href="https://www.allobebe.fr/gigoteuse-reglable-6-36-mois-le-roi-lion-aPH067631780.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/pyj.jpg" alt="pyjama piquant" class="image"/></td>
+                        <td><img src="image/pyj.jpg" alt="pyjama piquant" class="image" /></td>
                         <td>Pyjama</td>
                         <td>Pyjama au caractère piquant</td>
-                        <td><a href="https://www.allobebe.fr/pyjama-dors-bien-caractere-piquant-aNX125069731.html"><img
+                        <td><a href="https://www.allobebe.fr/pyjama-dors-bien-caractere-piquant-aNX125069731.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                    <tr>
-                        <td><img src="image/bonnet.jpg" alt="bonnet de nuit" class="image"/></td>
+                    <tr class="normale">
+                        <td><img src="image/bonnet.jpg" alt="bonnet de nuit" class="image" /></td>
                         <td>Bonnet de nuit</td>
                         <td>Bonnet avec sauce mayo et ketchup intégré</td>
-                        <td><a href="https://www.allobebe.fr/bonnet-bebe-timouki-aST127097663.html"><img
+                        <td><a href="https://www.allobebe.fr/bonnet-bebe-timouki-aST127097663.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-                <table id="parent">
                     <tr>
-                        <td rowspan="3">Pour les parents</td>
+                        <th class="in" id="parent">Pour les parents</th>
+                    </tr>
+                    <tr class="intitule">
                         <td>Image</td>
-                        <td>Nom</td>
+                        <td>Nom produit</td>
                         <td>Description</td>
-                        <td>Acheter</td>
+                        <td>Lien</td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/dolicrane.png" alt="boite de doliprane" class="image"/></td>
+                        <td><img src="image/dolicrane.png" alt="boite de doliprane" class="image" /></td>
                         <td>Doliprane</td>
                         <td>Pour nos maux de tête</td>
-                        <td><a href="https://pharmacie-citypharma.fr/doliprane-1000mg-comprimes.html"><img
+                        <td><a href="https://pharmacie-citypharma.fr/doliprane-1000mg-comprimes.html" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
                     <tr class="urgent">
-                        <td><img src="image/casque.png" alt="casque antibruit" class="image"/></td>
+                        <td><img src="image/casque.png" alt="casque antibruit" class="image" /></td>
                         <td>Casque anti bruit</td>
                         <td>Casque pour faire la sieste tranquille</td>
                         <td><a
-                                href="https://www.quincaillerie.pro/produit/p133099/casque-anti-bruit-peltor-optime-3-avec-serre-tete-snr35?fcpc=P133099&fcdid=7389&bs=14&gclid=EAIaIQobChMIhu2NtbG46AIVmLPtCh3WQgpREAYYBSABEgJd8PD_BwE&flxrid=3c10aa17-c2c2-4b6e-b8d8-e4ecb4404ae4&utm_source=gshopping&utm_medium=cpc&utm_campaign=fluxcenter"><img
+                                href="https://www.quincaillerie.pro/produit/p133099/casque-anti-bruit-peltor-optime-3-avec-serre-tete-snr35?fcpc=P133099&fcdid=7389&bs=14&gclid=EAIaIQobChMIhu2NtbG46AIVmLPtCh3WQgpREAYYBSABEgJd8PD_BwE&flxrid=3c10aa17-c2c2-4b6e-b8d8-e4ecb4404ae4&utm_source=gshopping&utm_medium=cpc&utm_campaign=fluxcenter" target="_blank"><img
                                     src="image/cadie.png" alt="cadie noir" /></a></td>
                     </tr>
-                </table>
-            </section>
+                </tbody>
+            </table>
         </section>
-        <section id="formulaire">
+        <section id="lien">
             <a href="formulaire.html"><img src="image/liste.png" alt="iamge liste" id="logoliste">Accès au
                 Formulaire</a>
         </section>
     </main>
 
     <footer>
-        <a href="#header">Accueil</a>
+        <a href="#header"><img src="image/logohome.png" alt="logo maison" class="logoblk"/><img src="image/logohomewht.png" alt="logo maison blanc" class="logowht"/>&nbsp;Accueil</a>
         <p>&copy; Copyright Martin Bozon 2020</p>
         <a href="https://github.com/martin-bozon" target="_blank" id="git"><img src="image/logogitblk.png"
-                alt="logo git hub" id="logogit" />Github Martin Bozon</a>
+                alt="logo git hub" class="logoblk" /><img src="image/logogitwht.png" alt="logo git blanc" class="logowht"/>Github Martin Bozon</a>
     </footer>
 </body>
 
