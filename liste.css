@@ -22,6 +22,10 @@ body
         margin: 0;
         font-family: "letters for learners";
     }
+p
+    {
+        margin: 0;
+    }
 a
     {
         text-decoration: none;
@@ -51,6 +55,7 @@ header h1
 header a
     {
         color: black;
+        background-color: white;
         font-size: 25px;
         border: 2px dotted black;
         padding-left: 1vw;
@@ -73,6 +78,143 @@ main
         align-items: center;
         justify-content: space-evenly;
         background:linear-gradient(to top right, #D7F591, #F5A991);
+    }
+/* Menu */
+#categorie
+    {
+        font-size: 40px;
+        background-color: white;
+        border: 2px dotted black;
+        border-radius: 25px;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+#menu nav ul li ul
+    {
+        display: none;
+        font-size: 30px;
+    }
+#menu nav ul li:hover ul
+{
+        display:flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 0px rgb(114, 112, 112), -2px -2px 0px rgb(114, 112, 112);
+        background-color: white;
+        border-radius: 25px;
+        padding-right: 1vw;
+        position: absolute;
+}
+#menu nav ul li:hover ul a
+    {
+        color: #F5A991;
+    }
+/* Contenu */
+#contenu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+#legende
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 25px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 10vh;
+        width: 80%;
+        font-size: 25px;
+    }
+#legende ul
+    {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+#tableau
+    {
+        border: 1px solid black;
+        border-radius: 25px;
+        background-color: rgba(189, 194, 189, 0.534);
+        width: 90%;
+        padding: 2vh;
+
+    }
+table
+    {
+        border: 1px solid black;
+        border-radius: 25px;
+        background-color: rgba(160, 229, 160, 0.678);
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+table tr
+    {
+        border:1px dotted black;
+        border-radius: 25px;
+        border-spacing: 0px;
+    }
+.image
+    {
+        height: 20vh;
+    }
+/* Formulaire */
+form
+    {
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+        width: 40vw;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px dotted black;
+        border-radius: 25px;
+        background-color: rgba(153, 147, 147, 0.548);
+        margin-bottom: 5vh;
+        padding: 2vh;
+    }
+form section
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 10vh;
+        justify-content: space-evenly;
+    }
+form label
+    {
+        font-size: 25px;
+    }
+form input, textarea
+    {
+        box-shadow:1px 1px 2px rgb(204, 201, 201) inset;
+    }
+#file
+    {
+        background-color: white;
+    }
+input:focus, textarea:focus, select:focus
+    {
+        background-color: #D7F591;
+    }
+.oblig::after
+    {
+        content: "*";
+        color: rgb(255, 47, 47);
+    }
+#bouton
+    {
+        border-radius: 25px;
+        background-color: #F5A991;
+        width: 10vw;
     }
 /* Footer */
 footer

@@ -13,57 +13,38 @@
     </header>
 
     <main>
-        <h1>Remplir le formulaire pour séléctionner un objet</h1>
+        <h1>Remplir le formulaire pour ajouter un objet</h1>
         <form action="liste.html">
             <section>
-                <label for="nom" class="oblig">Nom</label>
-                <input type="text" name="nom" id="nom" required/>
-            </section>
-            <section>
-                <label for="prenom" class="oblig">Prénom</label>
-                <input type="text" name="prenom" id="prenom"/>
-            </section>
-            <section>
-                <label for="choisir">Choisis ton produit</label>
+                <label for="categorie" class="oblig">Sélectionner une catégories</label>
                 <select required>
-                    <option>Sélectionner un produit</option>
-                    <optgroup label="Première sortie">
-                        <option disabled>Porte bébé</option>
-                        <option disabled>Nacelle Amber plus</option>
-                        <option>Poussette Trois Roues Tout Terrain (PTT)</option>
-                    </optgroup>
-                    <optgroup label="Eveil">
-                        <option>Hochet Muchachos le Lama</option>
-                        <option disabled>Veilleuse Grobrite le Pingouin</option>
-                        <option disabled>Mobile Fanny et Oscar</option>
-                    </optgroup>
-                    <optgroup label="Repas">
-                        <option>Lot de 6 Biberons</option>
-                        <option disabled>Lot de 2 tétines</option>
-                        <option disabled>Chauffe Biberon</option>
-                    </optgroup>
-                    <optgroup label="Chambre">
-                        <option>Lit à barreux</option>
-                        <option>Matelas été hiver</option>
-                        <option>Baby phone</option>
-                    </optgroup>
-                    <optgroup label="Toilette">
-                        <option>Coffret de toilette</option>
-                        <option>Lot de Sorties de bain</option>
-                        <option disabled>Poubelle à couche</option>
-                        <option>Mouche bébé électrique</option>
-                    </optgroup>
-                    <optgroup label="Sommeil">
-                        <option disabled>Gigoteuse Roi Lion</option>
-                        <option>Pyjama</option>
-                        <option>Bonnet de nuit</option>
-                    </optgroup>
-                    <optgroup label="Parents">
-                        <option>Doliprane</option>
-                        <option>Casque anti bruit</option>
-                    </optgroup>
+                    <option value="" hidden>Catégories</option>
+                    <option>Sortie</option>
+                    <option>Eveil</option>
+                    <option>Repas</option>
+                    <option>Chambre</option>
+                    <option>Toilette</option>
+                    <option>Sommeil</option>
+                    <option>Parents</option>
                 </select>
             </section>
+            <section>
+                <label for="nom" class="oblig">Nom du produit</label>
+                <input type="text" name="nom" id="nom"  placeholder="Nom du produit" required/>
+            </section>
+            <section>
+                <label for="description" class="oblig">Description</label>
+                <textarea name="description" id="description" rows="2" cols="33" placeholder="Description du produit" required></textarea>
+            </section>
+           <section>
+               <label for="lien" class="oblig">Lien du site</label>
+               <input type="url" name="lien" id="lien" placeholder="copier l'url" required>
+           </section>
+           <section>
+               <label for="file" class="oblig">Ajouter une image</label>
+               <input type="file" name="file" id="file" required/>
+           </section>
+           <p class="oblig">Champs obligatoire</p>
             <input type="submit" value="Envoyer" id="bouton">
         </form>
     </main>
@@ -72,7 +53,7 @@
         <a href="liste.html">Accueil</a>
         <p>&copy; Copyright Martin Bozon 2020</p>
         <a href="https://github.com/martin-bozon" target="_blank" id="git"><img src="image/logogitblk.png"
-                alt="logo git hub" id="logogit" />
+                alt="logo git hub" id="logogit" />Github Martin Bozon</a>
     </footer>
 </body>
 </html>
